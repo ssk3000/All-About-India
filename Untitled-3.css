@@ -1,0 +1,27 @@
+ul.navbar {
+    list-style-type: none; margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: gold;
+}
+ul.navbar li {
+    float: left;
+}
+body {
+    background-color: aqua;
+    background-image: url(indianlamp.jpg);
+    background-repeat:repeat;
+    background-attachment: fixed;
+}
+ul.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: underlines;
+}
+ul.navbar li a:hover {
+    
+    background-color: #111;
+    
+}

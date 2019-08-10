@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href=Untitled-2.css>
+    <script>
+        alert('Welcome to this webpage');
+        function msg(){
+            alert('You clicked a button')
+        }
+        var i=0;
+        function counter(){
+            i =i+1;
+            alert("you click on this button "+String(i)+ "times")
+        }
+    </script>
+    </head>
+    <body>
+        <ul class="navbar">
+            <li>
+                <a href="Lesson1.html">Festivals</a>
+            </li>
+        <li>
+            <a href="Untitled-1.html">Fun Facts</a>
+            </li>
+        <li>
+            <a href="Untitled-5.html">Landmarks</a>
+            </li>
+        <li>
+            <a href="index.html">Home</a>
+            </li>
+        </ul>
+        <h1>
+            All About India
+        </h1>
+        <img src="IndianFlag.jpg" alt="Picture of flag"/>
+         <div style="background-color: lightgray"/>
+        <h2>
+            India is a very interesting country! It has lots of interesting Landmarks, Festivals, and Fun Facts! India is an awesome country!
+        </h2>
+        <h3>
+            Click Home, Landmarks, or Fun Facts on the navigation bar to learn more about India.
+        </h3>
+        <p>
+        </p>
+        <p>
+        </p>
+         <button type="button"
+                 onclick="document.getElementById('date').innerHTML=Date();">Get the date</button>
+        <p id="date"></p>
+    </body>
+</html>
